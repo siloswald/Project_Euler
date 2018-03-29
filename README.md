@@ -2,4 +2,4 @@
 <hr>
 https://projecteuler.net/ with C#
 <hr>
-1: Multiples of 3 and 5 
+1: Sum of Multiples of 3 and 5 under 1000<br>
