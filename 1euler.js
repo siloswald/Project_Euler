@@ -25,6 +25,6 @@ console.log(euler_01(1000)) //log function with object literal 1000
 
 //Post-Decrement Operand:
 //a--
-//subtract 1 to a, returns the old value
+//subtract 1 from a, returns the old value
 //--a
-//add 1 to a, returns the new value
+//subtract 1 from a, returns the new value
