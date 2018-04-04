@@ -1,15 +1,17 @@
-function euler_01()
+function euler_01() //Implement function function_name(object)
 {
-    var sum = 0, x = 1000;
+    var sum = 0, x = 1000; //Assign value = 0 to sum variable, assign value = 1000 to x variable
     
-    while (x --)
+    while (x --) //implement post-decrement operand condition to variable x
 {
-if ( x % 3 === 0 ||  x % 5 === 0 )
+if ( x % 3 === 0 ||  x % 5 === 0 ) //assigning parameters to variable x
 {
-    sum += x;
+    sum += x; //sum is either larger or equal to x
     }
 }
-return sum;
+return sum; //return variable sum
 }
-console.log(euler_01(1000))
+console.log(euler_01(1000)) //log function with object literal 1000
 
+//You can add other keywords to loops that allow for different functionality 
+//Keywords: do while if for 
